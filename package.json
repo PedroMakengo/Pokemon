@@ -1,0 +1,8 @@
+{
+  "name": "Pokemon",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/PedroMakengo/Pokemon.git",
+  "author": "PedroMakengo <61626420+PedroMakengo@users.noreply.github.com>",
+  "license": "MIT"
+}
