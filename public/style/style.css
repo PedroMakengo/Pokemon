@@ -110,3 +110,34 @@ header .content p {
   display: block;
   border-bottom: 15px solid #ffcc01;
 }
+
+/* SECTION */
+.list-section .container {
+  max-width: 1100px;
+  margin: 4rem auto;
+}
+
+.list-section .container .row {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.list-section .container .row .item-pokemon {
+  width: 26%;
+  padding: 1rem;
+  border: 3px solid #385eaa;
+
+  height: 200px;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+
+  text-align: center;
+}
+
+.list-section .container .row .item-pokemon + .item-pokemon {
+  margin-bottom: 2rem;
+}
